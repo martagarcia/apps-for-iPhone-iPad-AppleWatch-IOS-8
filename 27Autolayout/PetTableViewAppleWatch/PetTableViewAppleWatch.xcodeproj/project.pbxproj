@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C16AEAF91AC0730500411EF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16AEAF81AC0730500411EF2 /* AppDelegate.swift */; };
+		C16AEAFB1AC0730500411EF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16AEAFA1AC0730500411EF2 /* ViewController.swift */; };
+		C16AEAFE1AC0730500411EF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16AEAFC1AC0730500411EF2 /* Main.storyboard */; };
+		C16AEB001AC0730500411EF2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C16AEAFF1AC0730500411EF2 /* Images.xcassets */; };
+		C16AEB031AC0730500411EF2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C16AEB011AC0730500411EF2 /* LaunchScreen.xib */; };
+		C16AEB0F1AC0730500411EF2 /* PetTableViewAppleWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16AEB0E1AC0730500411EF2 /* PetTableViewAppleWatchTests.swift */; };
+		C16AEB211AC0732900411EF2 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16AEB201AC0732900411EF2 /* InterfaceController.swift */; };
+		C16AEB231AC0732900411EF2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C16AEB221AC0732900411EF2 /* Images.xcassets */; };
+		C16AEB271AC0732900411EF2 /* PetTableViewAppleWatch WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = C16AEB261AC0732900411EF2 /* PetTableViewAppleWatch WatchKit App.app */; };
+		C16AEB2F1AC0732900411EF2 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16AEB2D1AC0732900411EF2 /* Interface.storyboard */; };
+		C16AEB311AC0732900411EF2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C16AEB301AC0732900411EF2 /* Images.xcassets */; };
+		C16AEB341AC0732900411EF2 /* PetTableViewAppleWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C16AEB1C1AC0732900411EF2 /* PetTableViewAppleWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C16AEB3D1AC0749200411EF2 /* PetTableRowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16AEB3C1AC0749200411EF2 /* PetTableRowViewController.swift */; };
+		C19BB4051AC088880017F67F /* PetDetailControllerInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19BB4041AC088880017F67F /* PetDetailControllerInterfaceController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C16AEB091AC0730500411EF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C16AEAEB1AC0730500411EF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C16AEAF21AC0730500411EF2;
+			remoteInfo = PetTableViewAppleWatch;
+		};
+		C16AEB281AC0732900411EF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C16AEAEB1AC0730500411EF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C16AEB251AC0732900411EF2;
+			remoteInfo = "PetTableViewAppleWatch WatchKit App";
+		};
+		C16AEB321AC0732900411EF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C16AEAEB1AC0730500411EF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C16AEB1B1AC0732900411EF2;
+			remoteInfo = "PetTableViewAppleWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C16AEB3B1AC0732900411EF2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C16AEB341AC0732900411EF2 /* PetTableViewAppleWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C16AEAF31AC0730500411EF2 /* PetTableViewAppleWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetTableViewAppleWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C16AEAF71AC0730500411EF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C16AEAF81AC0730500411EF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C16AEAFA1AC0730500411EF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C16AEAFD1AC0730500411EF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C16AEAFF1AC0730500411EF2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C16AEB021AC0730500411EF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C16AEB081AC0730500411EF2 /* PetTableViewAppleWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetTableViewAppleWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C16AEB0D1AC0730500411EF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C16AEB0E1AC0730500411EF2 /* PetTableViewAppleWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetTableViewAppleWatchTests.swift; sourceTree = "<group>"; };
+		C16AEB1C1AC0732900411EF2 /* PetTableViewAppleWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PetTableViewAppleWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C16AEB1F1AC0732900411EF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C16AEB201AC0732900411EF2 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		C16AEB221AC0732900411EF2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C16AEB261AC0732900411EF2 /* PetTableViewAppleWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PetTableViewAppleWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C16AEB2C1AC0732900411EF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C16AEB2E1AC0732900411EF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C16AEB301AC0732900411EF2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C16AEB3C1AC0749200411EF2 /* PetTableRowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetTableRowViewController.swift; sourceTree = "<group>"; };
+		C19BB4041AC088880017F67F /* PetDetailControllerInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetDetailControllerInterfaceController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C16AEAF01AC0730500411EF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C16AEB051AC0730500411EF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C16AEB191AC0732900411EF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C16AEAEA1AC0730500411EF2 = {
+			isa = PBXGroup;
+			children = (
+				C16AEAF51AC0730500411EF2 /* PetTableViewAppleWatch */,
+				C16AEB0B1AC0730500411EF2 /* PetTableViewAppleWatchTests */,
+				C16AEB1D1AC0732900411EF2 /* PetTableViewAppleWatch WatchKit Extension */,
+				C16AEB2A1AC0732900411EF2 /* PetTableViewAppleWatch WatchKit App */,
+				C16AEAF41AC0730500411EF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C16AEAF41AC0730500411EF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C16AEAF31AC0730500411EF2 /* PetTableViewAppleWatch.app */,
+				C16AEB081AC0730500411EF2 /* PetTableViewAppleWatchTests.xctest */,
+				C16AEB1C1AC0732900411EF2 /* PetTableViewAppleWatch WatchKit Extension.appex */,
+				C16AEB261AC0732900411EF2 /* PetTableViewAppleWatch WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C16AEAF51AC0730500411EF2 /* PetTableViewAppleWatch */ = {
+			isa = PBXGroup;
+			children = (
+				C16AEAF81AC0730500411EF2 /* AppDelegate.swift */,
+				C16AEAFA1AC0730500411EF2 /* ViewController.swift */,
+				C16AEAFC1AC0730500411EF2 /* Main.storyboard */,
+				C16AEAFF1AC0730500411EF2 /* Images.xcassets */,
+				C16AEB011AC0730500411EF2 /* LaunchScreen.xib */,
+				C16AEAF61AC0730500411EF2 /* Supporting Files */,
+			);
+			path = PetTableViewAppleWatch;
+			sourceTree = "<group>";
+		};
+		C16AEAF61AC0730500411EF2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C16AEAF71AC0730500411EF2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C16AEB0B1AC0730500411EF2 /* PetTableViewAppleWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				C16AEB0E1AC0730500411EF2 /* PetTableViewAppleWatchTests.swift */,
+				C16AEB0C1AC0730500411EF2 /* Supporting Files */,
+			);
+			path = PetTableViewAppleWatchTests;
+			sourceTree = "<group>";
+		};
+		C16AEB0C1AC0730500411EF2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C16AEB0D1AC0730500411EF2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C16AEB1D1AC0732900411EF2 /* PetTableViewAppleWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C16AEB201AC0732900411EF2 /* InterfaceController.swift */,
+				C16AEB221AC0732900411EF2 /* Images.xcassets */,
+				C16AEB1E1AC0732900411EF2 /* Supporting Files */,
+				C16AEB3C1AC0749200411EF2 /* PetTableRowViewController.swift */,
+				C19BB4041AC088880017F67F /* PetDetailControllerInterfaceController.swift */,
+			);
+			path = "PetTableViewAppleWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		C16AEB1E1AC0732900411EF2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C16AEB1F1AC0732900411EF2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C16AEB2A1AC0732900411EF2 /* PetTableViewAppleWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C16AEB2D1AC0732900411EF2 /* Interface.storyboard */,
+				C16AEB301AC0732900411EF2 /* Images.xcassets */,
+				C16AEB2B1AC0732900411EF2 /* Supporting Files */,
+			);
+			path = "PetTableViewAppleWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		C16AEB2B1AC0732900411EF2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C16AEB2C1AC0732900411EF2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C16AEAF21AC0730500411EF2 /* PetTableViewAppleWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C16AEB121AC0730500411EF2 /* Build configuration list for PBXNativeTarget "PetTableViewAppleWatch" */;
+			buildPhases = (
+				C16AEAEF1AC0730500411EF2 /* Sources */,
+				C16AEAF01AC0730500411EF2 /* Frameworks */,
+				C16AEAF11AC0730500411EF2 /* Resources */,
+				C16AEB3B1AC0732900411EF2 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C16AEB331AC0732900411EF2 /* PBXTargetDependency */,
+			);
+			name = PetTableViewAppleWatch;
+			productName = PetTableViewAppleWatch;
+			productReference = C16AEAF31AC0730500411EF2 /* PetTableViewAppleWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C16AEB071AC0730500411EF2 /* PetTableViewAppleWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C16AEB151AC0730500411EF2 /* Build configuration list for PBXNativeTarget "PetTableViewAppleWatchTests" */;
+			buildPhases = (
+				C16AEB041AC0730500411EF2 /* Sources */,
+				C16AEB051AC0730500411EF2 /* Frameworks */,
+				C16AEB061AC0730500411EF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C16AEB0A1AC0730500411EF2 /* PBXTargetDependency */,
+			);
+			name = PetTableViewAppleWatchTests;
+			productName = PetTableViewAppleWatchTests;
+			productReference = C16AEB081AC0730500411EF2 /* PetTableViewAppleWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C16AEB1B1AC0732900411EF2 /* PetTableViewAppleWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C16AEB381AC0732900411EF2 /* Build configuration list for PBXNativeTarget "PetTableViewAppleWatch WatchKit Extension" */;
+			buildPhases = (
+				C16AEB181AC0732900411EF2 /* Sources */,
+				C16AEB191AC0732900411EF2 /* Frameworks */,
+				C16AEB1A1AC0732900411EF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C16AEB291AC0732900411EF2 /* PBXTargetDependency */,
+			);
+			name = "PetTableViewAppleWatch WatchKit Extension";
+			productName = "PetTableViewAppleWatch WatchKit Extension";
+			productReference = C16AEB1C1AC0732900411EF2 /* PetTableViewAppleWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		C16AEB251AC0732900411EF2 /* PetTableViewAppleWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C16AEB351AC0732900411EF2 /* Build configuration list for PBXNativeTarget "PetTableViewAppleWatch WatchKit App" */;
+			buildPhases = (
+				C16AEB241AC0732900411EF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PetTableViewAppleWatch WatchKit App";
+			productName = "PetTableViewAppleWatch WatchKit App";
+			productReference = C16AEB261AC0732900411EF2 /* PetTableViewAppleWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C16AEAEB1AC0730500411EF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = iOS8;
+				TargetAttributes = {
+					C16AEAF21AC0730500411EF2 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					C16AEB071AC0730500411EF2 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = C16AEAF21AC0730500411EF2;
+					};
+					C16AEB1B1AC0732900411EF2 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					C16AEB251AC0732900411EF2 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = C16AEAEE1AC0730500411EF2 /* Build configuration list for PBXProject "PetTableViewAppleWatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C16AEAEA1AC0730500411EF2;
+			productRefGroup = C16AEAF41AC0730500411EF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C16AEAF21AC0730500411EF2 /* PetTableViewAppleWatch */,
+				C16AEB071AC0730500411EF2 /* PetTableViewAppleWatchTests */,
+				C16AEB1B1AC0732900411EF2 /* PetTableViewAppleWatch WatchKit Extension */,
+				C16AEB251AC0732900411EF2 /* PetTableViewAppleWatch WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C16AEAF11AC0730500411EF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C16AEAFE1AC0730500411EF2 /* Main.storyboard in Resources */,
+				C16AEB031AC0730500411EF2 /* LaunchScreen.xib in Resources */,
+				C16AEB001AC0730500411EF2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C16AEB061AC0730500411EF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C16AEB1A1AC0732900411EF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C16AEB231AC0732900411EF2 /* Images.xcassets in Resources */,
+				C16AEB271AC0732900411EF2 /* PetTableViewAppleWatch WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C16AEB241AC0732900411EF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C16AEB2F1AC0732900411EF2 /* Interface.storyboard in Resources */,
+				C16AEB311AC0732900411EF2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C16AEAEF1AC0730500411EF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C16AEAFB1AC0730500411EF2 /* ViewController.swift in Sources */,
+				C16AEAF91AC0730500411EF2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C16AEB041AC0730500411EF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C16AEB0F1AC0730500411EF2 /* PetTableViewAppleWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C16AEB181AC0732900411EF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C16AEB3D1AC0749200411EF2 /* PetTableRowViewController.swift in Sources */,
+				C19BB4051AC088880017F67F /* PetDetailControllerInterfaceController.swift in Sources */,
+				C16AEB211AC0732900411EF2 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C16AEB0A1AC0730500411EF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C16AEAF21AC0730500411EF2 /* PetTableViewAppleWatch */;
+			targetProxy = C16AEB091AC0730500411EF2 /* PBXContainerItemProxy */;
+		};
+		C16AEB291AC0732900411EF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C16AEB251AC0732900411EF2 /* PetTableViewAppleWatch WatchKit App */;
+			targetProxy = C16AEB281AC0732900411EF2 /* PBXContainerItemProxy */;
+		};
+		C16AEB331AC0732900411EF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C16AEB1B1AC0732900411EF2 /* PetTableViewAppleWatch WatchKit Extension */;
+			targetProxy = C16AEB321AC0732900411EF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C16AEAFC1AC0730500411EF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C16AEAFD1AC0730500411EF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C16AEB011AC0730500411EF2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C16AEB021AC0730500411EF2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		C16AEB2D1AC0732900411EF2 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C16AEB2E1AC0732900411EF2 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C16AEB101AC0730500411EF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C16AEB111AC0730500411EF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C16AEB131AC0730500411EF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = PetTableViewAppleWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C16AEB141AC0730500411EF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = PetTableViewAppleWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C16AEB161AC0730500411EF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PetTableViewAppleWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetTableViewAppleWatch.app/PetTableViewAppleWatch";
+			};
+			name = Debug;
+		};
+		C16AEB171AC0730500411EF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PetTableViewAppleWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetTableViewAppleWatch.app/PetTableViewAppleWatch";
+			};
+			name = Release;
+		};
+		C16AEB361AC0732900411EF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = PetTableViewAppleWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "PetTableViewAppleWatch WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		C16AEB371AC0732900411EF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = PetTableViewAppleWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "PetTableViewAppleWatch WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		C16AEB391AC0732900411EF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PetTableViewAppleWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C16AEB3A1AC0732900411EF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "PetTableViewAppleWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C16AEAEE1AC0730500411EF2 /* Build configuration list for PBXProject "PetTableViewAppleWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C16AEB101AC0730500411EF2 /* Debug */,
+				C16AEB111AC0730500411EF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C16AEB121AC0730500411EF2 /* Build configuration list for PBXNativeTarget "PetTableViewAppleWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C16AEB131AC0730500411EF2 /* Debug */,
+				C16AEB141AC0730500411EF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C16AEB151AC0730500411EF2 /* Build configuration list for PBXNativeTarget "PetTableViewAppleWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C16AEB161AC0730500411EF2 /* Debug */,
+				C16AEB171AC0730500411EF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C16AEB351AC0732900411EF2 /* Build configuration list for PBXNativeTarget "PetTableViewAppleWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C16AEB361AC0732900411EF2 /* Debug */,
+				C16AEB371AC0732900411EF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C16AEB381AC0732900411EF2 /* Build configuration list for PBXNativeTarget "PetTableViewAppleWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C16AEB391AC0732900411EF2 /* Debug */,
+				C16AEB3A1AC0732900411EF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C16AEAEB1AC0730500411EF2 /* Project object */;
+}
